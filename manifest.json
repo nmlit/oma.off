@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "oma.off",
+  "name": "Power Off",
+  "version": "1.0.0",
+  "author": "Niklas Moonlit",
+  "license": "MIT",
+  "description": "Power-off icon in the bar. Click to confirm, click again to shut down.",
+  "kinds": ["bar-widget"],
+  "entryPoints": {
+    "barWidget": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "Power Off",
+    "category": "System",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
