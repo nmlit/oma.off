@@ -8,6 +8,12 @@ Bar-widget för Omarchy.
 
 ## Installera
 
+### Installera från GitHub
+
+```bash
+omarchy plugin add https://github.com/nmlit/oma.off.git --enable
+```
+
 ```bash
 mkdir -p ~/.config/omarchy/plugins/oma.off
 git clone https://github.com/nmlit/oma.off.git ~/.config/omarchy/plugins/oma.off
