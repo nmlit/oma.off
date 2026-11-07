@@ -24,7 +24,8 @@ Panel {
 
   Process {
     id: shutdownProc
-    command: ["omarchy-system-shutdown"]
+    // Omarchy 4.5: omarchy-system-shutdown removed; same action as the official menu.
+    command: ["omarchy-system", "shutdown"]
   }
 
   BarIconButton {
